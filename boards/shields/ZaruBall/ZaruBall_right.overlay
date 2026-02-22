@@ -46,8 +46,8 @@
     };
 
     aliases {
-        led_red = &led_r;
-        led_green = &led_g;
-        led_blue = &led_b;
+        led-red = &led_r;
+        led-green = &led_g;
+        led-blue = &led_b;
     };
 };

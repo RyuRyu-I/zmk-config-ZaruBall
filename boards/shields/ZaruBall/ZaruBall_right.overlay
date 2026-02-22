@@ -27,3 +27,27 @@
     device = <&trackball>;
   };
 };
+
+/ {
+    leds {
+        compatible = "gpio-leds";
+
+        led_r: led_red {
+            gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
+        };
+
+        led_g: led_green {
+            gpios = <&gpio0 14 GPIO_ACTIVE_HIGH>;
+        };
+
+        led_b: led_blue {
+            gpios = <&gpio0 15 GPIO_ACTIVE_HIGH>;
+        };
+    };
+
+    aliases {
+        led_red = &led_r;
+        led_green = &led_g;
+        led_blue = &led_b;
+    };
+};

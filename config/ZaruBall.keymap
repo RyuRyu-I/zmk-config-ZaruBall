@@ -133,8 +133,8 @@
             bindings = <
 &trans       &none  &none           &none           &none            &none                            &none            &none          &none           &none                  &none     &none
 &kp LG(TAB)  &none  &none           &none           &none            &kp LG(T)                        &kp RG(RSHIFT)   &kp RG(RC(D))  &kp RG(RC(F4))  &kp RG(RIGHT_CONTROL)  &kp PLUS  &none
-&trans       &none  &none           &kp UP_ARROW    &none            &msc SCRL_UP    &msc SCRL_LEFT   &kp PG_UP        &kp HOME       &none           &none                  &none     &none   &none
-&trans       &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp PG_DN        &kp END        &none           &none                  &none     &none   &none
+&trans       &none  &none           &kp UP_ARROW    &none            &msc SCRL_UP    &msc SCRL_LEFT   &kp PG_UP        &kp HOME       &none           &none                  &none     &kp MINUS     &none
+&trans       &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp PG_DN        &kp END        &none           &none                  &none     &kp LEFT_WIN  &none
 &trans              &none           &trans          &trans           &kp PSCRN       &kp LEFT_SHIFT   &kp RIGHT_SHIFT  &kp DEL                                                         &trans
             >;
         };

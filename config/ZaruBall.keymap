@@ -36,9 +36,11 @@
     };
 };
 
+/*
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
 };
+*/
 
 / {
     behaviors {
